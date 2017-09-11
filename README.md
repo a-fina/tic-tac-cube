@@ -15,7 +15,7 @@ staging:        ttc-stag https://ttc-stag.herokuapp.com/
 
 ## deploy
 production:	git push ttc-prod master
-staging:	git push ttc-stag staging 
+staging:	git push ttc-stag staging:master 
 
 ## development GITHUB (  origin )
 master:		git push origin master
